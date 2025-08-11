@@ -303,13 +303,20 @@
 
           <div class="modal-img-wrapper">
             <figure class="modal-avatar-box">
-              <img src="./assets/images/mypic1.png" alt="avatar" width="80" data-modal-img>
+              <img src="./assets/images/mypic1.png" alt="Project image" width="80" data-modal-img>
             </figure>
+            <button class="gallery-prev" aria-label="Previous image">
+              <ion-icon name="chevron-back-outline"></ion-icon>
+            </button>
+            <button class="gallery-next" aria-label="Next image">
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </button>
           </div>
 
           <div class="modal-content">
             <h4 class="h3 modal-title" data-modal-title>Project Title</h4>
             <time data-modal-text>Project Description</time>
+            <div class="gallery-thumbs" data-gallery-thumbs></div>
           </div>
         </div>
       </div>
@@ -488,7 +495,7 @@
           <ul class="project-list">
 
             <li class="project-item  active" data-filter-item data-category="crud system">
-              <a href="#">
+              <a href="#" data-gallery-images="./assets/images/lib-dashboard.png, ./assets/images/login.PNG, ./assets/images/itrems.PNG, ./assets/images/categ.PNG">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -508,14 +515,14 @@
           
 
             <li class="project-item  active" data-filter-item data-category="library system">
-              <a href="#">
+              <a href="#" data-gallery-images="./assets/images/crud-lib-system.jpeg">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/crud-lib-system.jpeg" alt="orizon" loading="lazy">
+                  <img src="./assets/images/crud-lib-system.jpeg" alt="Empowered Shelf" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Empowered S(h)elf</h3>
@@ -526,7 +533,7 @@
             </li>
 
             <li class="project-item active" data-filter-item data-category="mobile app">
-              <a href="#">
+              <a href="#" data-gallery-images="./assets/images/quickdoc.png">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
@@ -539,7 +546,7 @@
             </li>
 
             <li class="project-item active" data-filter-item data-category="mobile app">
-              <a href="#">
+              <a href="#" data-gallery-images="./assets/images/Health Care App - Onboarding.png, ./assets/images/Health Care App - Home Page.png">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
