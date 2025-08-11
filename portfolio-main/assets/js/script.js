@@ -138,6 +138,7 @@ const galleryThumbsContainer = document.querySelector("[data-gallery-thumbs]");
 const galleryPrevBtn = document.querySelector(".gallery-prev");
 const galleryNextBtn = document.querySelector(".gallery-next");
 const modalImgWrapper = document.querySelector(".modal-img-wrapper");
+const projectsModalEl = document.querySelector('.projects-modal');
 
 let activeGalleryImages = [];
 let activeGalleryIndex = 0;
@@ -178,9 +179,9 @@ function buildGalleryThumbs(images) {
 }
 
 function setGallerySingleState(isSingle) {
-  if (!modalImgWrapper) return;
-  if (isSingle) modalImgWrapper.classList.add('gallery-single');
-  else modalImgWrapper.classList.remove('gallery-single');
+  if (!projectsModalEl) return;
+  if (isSingle) projectsModalEl.classList.add('gallery-single');
+  else projectsModalEl.classList.remove('gallery-single');
 }
 
 function parseGalleryImages(anchorEl, fallbackSrc) {

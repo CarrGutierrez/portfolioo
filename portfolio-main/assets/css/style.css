@@ -2154,6 +2154,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 /* hide nav if only one image */
-.gallery-single .gallery-prev,
-.gallery-single .gallery-next,
-.gallery-single .gallery-thumbs { display: none; }
+.projects-modal.gallery-single .gallery-prev,
+.projects-modal.gallery-single .gallery-next,
+.projects-modal.gallery-single .gallery-thumbs { display: none; }
